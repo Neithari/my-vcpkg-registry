@@ -2,7 +2,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Neithari/dcmtk
     REF 34bedcff5d239c385bbb6af6b87cf3a91056efec # My DCMTK-3.6.8
-    SHA512 0
+    SHA512 5183d88e83b6b1a248f61d72b84cc5ca8deede0d100bfc434f505edcda2b8f5409d09b1b41f860faf0034b20481087283ec3299d69bb8efd07b975ac4f9dedb4
     HEAD_REF master
     PATCHES
     dcmtk.patch

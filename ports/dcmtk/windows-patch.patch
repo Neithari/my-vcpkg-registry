@@ -16,17 +16,19 @@ index 47e3476..2c974e8 100644
    # Only find_package is supported
    set(DCMTK_USE_FIND_PACKAGE TRUE CACHE BOOL "${USE_FIND_PACKAGE_DOCS}")
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 9f8d268..28ddc3e 100644
+index 76b42d5..114664f 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -4,6 +4,10 @@ cmake_minimum_required(VERSION 3.0.0...3.13.2 FATAL_ERROR)
+@@ -4,7 +4,11 @@ cmake_minimum_required(VERSION 3.0.0...3.13.2 FATAL_ERROR)
  # Declare project
  project(DCMTK)
- 
+ message("All your base are belong to us")
+-#-----------------------------------------------------------------------------
++
 +if(MSVC)
 +  string(APPEND CMAKE_CXX_FLAGS " /Zc:__cplusplus")
 +endif()
-+
- #-----------------------------------------------------------------------------
++# -----------------------------------------------------------------------------
  # General project settings to configure DCMTK build process
  #-----------------------------------------------------------------------------
+ 
