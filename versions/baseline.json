@@ -1,0 +1,8 @@
+{
+  "default": {
+    "dcmtk": {
+      "baseline": "3.6.8",
+      "port-version": 0
+    }
+  }
+}
